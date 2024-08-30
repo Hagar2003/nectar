@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nectar/features/home/presentation/views/widgets/onBoarding_body.dart';
+import 'package:nectar/features/onBoarding/presentation/views/widgets/onBoarding_body.dart';
 
 class OnbordingView extends StatelessWidget {
   const OnbordingView({super.key});

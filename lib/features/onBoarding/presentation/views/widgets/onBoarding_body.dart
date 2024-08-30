@@ -1,6 +1,8 @@
 
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
-import 'package:nectar/features/home/presentation/views/widgets/custom_button.dart';
+import 'package:nectar/core/widgets/custom_button.dart';
 
 class OnBoardingBody extends StatelessWidget {
   const OnBoardingBody({super.key});
@@ -15,7 +17,7 @@ class OnBoardingBody extends StatelessWidget {
           Image.asset('assets/images/logo.png',
           height: 56
           ,width:48),
-          const SizedBox(height: 30,),
+          const SizedBox(height: 20,),
           const Text('Welcome            to our store',
           textAlign: TextAlign.center,  
           style: TextStyle(fontWeight: FontWeight.w500,
