@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nectar/core/utils/styles.dart';
 import 'package:nectar/core/widgets/custom_button.dart';
 import 'package:nectar/core/widgets/custom_text_field.dart';
-import 'package:nectar/features/login/presentation/views/forget_password/widgets/reset_password.dart';
+import 'package:nectar/features/forget_password/widgets/reset_password.dart';
 
 class ForgetPasswordBody extends StatefulWidget {
   const ForgetPasswordBody({super.key});

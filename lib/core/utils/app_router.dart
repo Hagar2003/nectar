@@ -1,5 +1,5 @@
 import 'package:go_router/go_router.dart';
-import 'package:nectar/features/login/presentation/views/forget_password/forget_password.dart';
+import 'package:nectar/features/forget_password/forget_password.dart';
 import 'package:nectar/features/login/presentation/views/login_view.dart';
 import 'package:nectar/features/onBoarding/presentation/views/onbording_view.dart';
 

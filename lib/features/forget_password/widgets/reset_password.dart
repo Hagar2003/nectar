@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:nectar/constants.dart';
 import 'package:nectar/core/utils/styles.dart';
 import 'package:nectar/core/widgets/custom_button.dart';
-import 'package:nectar/features/login/presentation/views/forget_password/widgets/pin_code_text_field.dart';
+import 'package:nectar/features/forget_password/widgets/pin_code_text_field.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 
 class ResetPassword extends StatelessWidget {

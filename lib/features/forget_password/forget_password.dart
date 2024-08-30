@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nectar/features/login/presentation/views/forget_password/widgets/forget_password_body.dart';
+import 'package:nectar/features/forget_password/widgets/forget_password_body.dart';
 
 class ForgetPassword extends StatelessWidget {
   const ForgetPassword({super.key});
