@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nectar/core/utils/styles.dart';
 import 'package:nectar/core/widgets/custom_button.dart';
 import 'package:nectar/core/widgets/custom_text_field.dart';
+import 'package:nectar/features/forget_password/widgets/custom_app_bar.dart';
 import 'package:nectar/features/forget_password/widgets/reset_password.dart';
 
 class ForgetPasswordBody extends StatefulWidget {
@@ -20,6 +21,7 @@ class _ForgetPasswordBodyState extends State<ForgetPasswordBody> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            CustomAppBar(),
             const Center(
                 child: Image(image: AssetImage('assets/images/carrot.png'))),
             const SizedBox(
@@ -46,12 +48,13 @@ class _ForgetPasswordBodyState extends State<ForgetPasswordBody> {
                 text: 'Continue',
                 onTap: () {
                   showModalBottomSheet(
-                      isScrollControlled: false,
+                    //  isScrollControlled: false,
                       context: context,
                       builder: (context) {
                         return const ResetPassword();
                       });
-                })
+  })
+  
           ],
         ),
       ),

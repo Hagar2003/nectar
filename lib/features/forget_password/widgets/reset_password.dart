@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:nectar/constants.dart';
 import 'package:nectar/core/utils/styles.dart';
 import 'package:nectar/core/widgets/custom_button.dart';
 import 'package:nectar/features/forget_password/widgets/pin_code_text_field.dart';
-import 'package:pin_code_fields/pin_code_fields.dart';
+import 'package:nectar/features/forget_password/widgets/reset_password_final.dart';
 
 class ResetPassword extends StatelessWidget {
   const ResetPassword({super.key});
@@ -31,7 +29,15 @@ class ResetPassword extends StatelessWidget {
                       const SizedBox(height:30),
                        const PinCodedTextField(),
                        const SizedBox(height: 60,),
-                       const CustomButton(text: 'Send Code')
+                        CustomButton(text: 'Send Code',
+                       onTap: (){
+                          showModalBottomSheet(
+                      isScrollControlled: false,
+                      context: context,
+                      builder: (context) {
+                        return const ResetPasswordFinal();
+                      });
+                       })
         ],
       ),
     );

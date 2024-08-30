@@ -1,5 +1,6 @@
 import 'package:go_router/go_router.dart';
 import 'package:nectar/features/forget_password/forget_password.dart';
+import 'package:nectar/features/forget_password/widgets/congratulations.dart';
 import 'package:nectar/features/login/presentation/views/login_view.dart';
 import 'package:nectar/features/onBoarding/presentation/views/onbording_view.dart';
 
@@ -20,5 +21,8 @@ abstract class AppRouter {
     GoRoute(
       path: kForgetPass,
       builder: (context, state) => const ForgetPassword(),
-  )  ]  );
+  ) ,
+    GoRoute(
+      path: '/ResetDone',
+      builder: (context, state) => const Congratulations(),) ]  );
 }
