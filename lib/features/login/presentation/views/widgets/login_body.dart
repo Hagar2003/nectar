@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nectar/core/utils/styles.dart';
-import 'package:nectar/features/login/presentation/views/widgets/custom_text_field.dart';
+import 'package:nectar/core/widgets/custom_text_field.dart';
 import 'package:nectar/features/login/presentation/views/widgets/password_text_field.dart';
 import 'package:nectar/features/login/presentation/views/widgets/last_part_login.dart';
 

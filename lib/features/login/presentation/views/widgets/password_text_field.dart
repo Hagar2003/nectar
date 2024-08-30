@@ -30,7 +30,7 @@ class _PasswordTextFieldState extends State<PasswordTextField> {
                     pass = !pass;
                   });
                 },
-  icon: Icon(pass==false ? Icons.visibility:Icons.visibility_off)
+  icon: Icon(pass==false ? Icons.visibility:Icons.visibility_off,color: const Color.fromARGB(255, 120, 120, 120),)
   )));
   }
 }

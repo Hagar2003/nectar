@@ -1,9 +1,11 @@
 import 'package:go_router/go_router.dart';
+import 'package:nectar/features/login/presentation/views/forget_password/forget_password.dart';
 import 'package:nectar/features/login/presentation/views/login_view.dart';
 import 'package:nectar/features/onBoarding/presentation/views/onbording_view.dart';
 
 abstract class AppRouter {
   static const kBoarding = '/OnBoarding';
+    static const kForgetPass = '/ForgetPass';
   
     
   static final router = GoRouter(routes: [
@@ -14,5 +16,9 @@ abstract class AppRouter {
     GoRoute(
       path: kBoarding,
       builder: (context, state) => const OnbordingView(),
-  )]);
+  ),
+    GoRoute(
+      path: kForgetPass,
+      builder: (context, state) => const ForgetPassword(),
+  )  ]  );
 }

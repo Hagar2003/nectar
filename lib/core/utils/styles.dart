@@ -13,4 +13,9 @@ class Styles {
       fontSize: 16, fontWeight: FontWeight.w500,
        fontFamily: 'Gilroy',
        color:  Color.fromARGB(255, 105, 104, 104));
+
+        static const Text20 = TextStyle(
+      fontSize: 21, fontWeight: FontWeight.w800,
+       fontFamily: 'Gilroy',
+       color:  Color.fromARGB(255, 105, 104, 104));
 }
