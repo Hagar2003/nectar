@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nectar/core/utils/styles.dart';
 import 'package:nectar/core/widgets/custom_text_field.dart';
-import 'package:nectar/features/login/presentation/views/widgets/password_text_field.dart';
+import 'package:nectar/core/widgets/password_text_field.dart';
 import 'package:nectar/features/login/presentation/views/widgets/last_part_login.dart';
 
 class LoginBody extends StatelessWidget {
@@ -26,7 +26,7 @@ class LoginBody extends StatelessWidget {
         style:Styles.Text16.copyWith(color: const Color.fromARGB(255, 110, 110, 110))),
         const SizedBox(height: 40,),
           const Text('Email',style:Styles.Text18 ,),
-        CustomTextField(),
+        CustomTextField(x:1),
         const SizedBox(height: 20,),
         const Text('password',style:Styles.Text18 ,),
         const PasswordTextField(),

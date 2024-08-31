@@ -10,7 +10,7 @@ class Congratulations extends StatelessWidget {
       body:  Padding(
         padding: EdgeInsets.symmetric(vertical: 62.0,horizontal: 32),
         child: Column(
-          children: [SizedBox(height: 70,),
+          children: [SizedBox(height: 90,),
             Image(image: AssetImage('assets/images/congratulations.png'),width: 200,),
             SizedBox(height: 50,),
             Text('Congratulations',style: Styles.Text26,),
