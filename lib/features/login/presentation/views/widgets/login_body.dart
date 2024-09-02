@@ -10,7 +10,14 @@ class LoginBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    body: SingleChildScrollView(
+    body: SingleChildScrollView(child:
+       Container(height: MediaQuery.of(context).size.height,
+     decoration: 
+     const BoxDecoration(image: 
+     DecorationImage(image: AssetImage('assets/images/backSignLogin.png',
+     ),
+     fit: BoxFit.fill
+     )),
       child: SafeArea(
           child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 18.0,vertical: 30.0),
@@ -36,6 +43,6 @@ class LoginBody extends StatelessWidget {
       ),
           ),
         ),
-    ));
+    )));
   }
 }

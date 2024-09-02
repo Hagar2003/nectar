@@ -17,11 +17,11 @@ class _ForgetPasswordBodyState extends State<ForgetPasswordBody> {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 32.0, vertical: 62.0),
+        padding: const EdgeInsets.symmetric(horizontal: 32.0, vertical: 62.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            CustomAppBar(),
+            const CustomAppBar(),
             const Center(
                 child: Image(image: AssetImage('assets/images/carrot.png'))),
             const SizedBox(

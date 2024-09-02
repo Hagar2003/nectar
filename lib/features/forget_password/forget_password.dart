@@ -6,7 +6,12 @@ class ForgetPassword extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body:ForgetPasswordBody());
+    return  Scaffold(
+      body: Container(height: MediaQuery.of(context).size.height,
+     decoration: 
+     const BoxDecoration(image: 
+     DecorationImage(image: AssetImage('assets/images/backSignLogin.png'),
+     fit: BoxFit.fill
+     )),child:const ForgetPasswordBody()));
   }
 }
