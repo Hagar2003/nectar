@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:nectar/constants.dart';
 import 'package:nectar/core/utils/styles.dart';
 import 'package:nectar/core/widgets/custom_button.dart';
@@ -30,9 +31,13 @@ class LastPartSignUp extends StatelessWidget {
           Text('Already have an account?',
               style: Styles.Text18.copyWith(
                   color: const Color.fromARGB(255, 20, 19, 19))),
-          Text(
-            ' SignUp',
-            style: Styles.Text18.copyWith(color: kPrimaryColor),
+          GestureDetector(onTap: () {
+              GoRouter.of(context).push('/Login');
+            },
+            child: Text(
+              ' Login',
+              style: Styles.Text18.copyWith(color: kPrimaryColor),
+            ),
           )
         ],
       )

@@ -40,9 +40,13 @@ class LastPartLogin extends StatelessWidget {
             Text('Don’t have an account?',
                 style: Styles.Text18.copyWith(
                     color: const Color.fromARGB(255, 73, 70, 70))),
-            Text(
-              ' SignUp',
-              style: Styles.Text18.copyWith(color: kPrimaryColor),
+            GestureDetector(onTap: () {
+              GoRouter.of(context).push('/SignUp');
+            },
+              child: Text(
+                ' SignUp',
+                style: Styles.Text18.copyWith(color: kPrimaryColor),
+              ),
             )
           ],
         )
