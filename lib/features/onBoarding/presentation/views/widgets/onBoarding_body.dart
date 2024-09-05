@@ -22,7 +22,7 @@ class OnBoardingBody extends StatelessWidget {
             height: 20,
           ),
           const Text(
-            'Welcome            to our store',
+            'Welcome\nto our store',
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.w500,

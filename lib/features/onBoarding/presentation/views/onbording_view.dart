@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nectar/features/onBoarding/presentation/views/widgets/onBoarding_body.dart';
+import 'package:nectar/features/onBoarding/presentation/views/widgets/onboarding_body.dart';
 
 class OnbordingView extends StatelessWidget {
   const OnbordingView({super.key});
@@ -10,7 +10,7 @@ class OnbordingView extends StatelessWidget {
      decoration: 
      const BoxDecoration(image: 
      DecorationImage(image: AssetImage('assets/images/background.jpg'),
-     fit: BoxFit.fill
+     fit: BoxFit.cover
      ),
         ),
         child:const OnBoardingBody(),);

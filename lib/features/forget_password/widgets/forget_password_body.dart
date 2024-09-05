@@ -5,17 +5,13 @@ import 'package:nectar/core/widgets/custom_text_field.dart';
 import 'package:nectar/features/forget_password/widgets/custom_app_bar.dart';
 import 'package:nectar/features/forget_password/widgets/reset_password.dart';
 
-class ForgetPasswordBody extends StatefulWidget {
+class ForgetPasswordBody extends StatelessWidget {
   const ForgetPasswordBody({super.key});
 
   @override
-  State<ForgetPasswordBody> createState() => _ForgetPasswordBodyState();
-}
-
-class _ForgetPasswordBodyState extends State<ForgetPasswordBody> {
-  @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return Scaffold(
+        body: SingleChildScrollView(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 32.0, vertical: 62.0),
         child: Column(
@@ -47,17 +43,18 @@ class _ForgetPasswordBodyState extends State<ForgetPasswordBody> {
             CustomButton(
                 text: 'Continue',
                 onTap: () {
-                  showModalBottomSheet(
-                    //  isScrollControlled: false,
+                  showBottomSheet(
+                      //  isScrollControlled:h false,
+                      showDragHandle: false,
                       context: context,
                       builder: (context) {
-                        return const ResetPassword();
+                        return Container(height:MediaQuery.of(context).size.height/1.7,
+                          child:const  ResetPassword());
                       });
-  })
-  
+                })
           ],
         ),
       ),
-    );
+    ));
   }
 }

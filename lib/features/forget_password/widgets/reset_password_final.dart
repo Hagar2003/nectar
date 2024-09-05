@@ -9,11 +9,11 @@ class ResetPasswordFinal extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 32),
+    return Scaffold(
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 16.0),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             const Text('Reset Password', style: Styles.Text26),
             SizedBox(height: 15, width: MediaQuery.of(context).size.width),
@@ -49,7 +49,6 @@ class ResetPasswordFinal extends StatelessWidget {
             )
           ],
         ),
-      ),
-    );
+      ));
   }
 }
