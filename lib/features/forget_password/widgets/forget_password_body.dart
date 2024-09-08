@@ -48,7 +48,7 @@ class ForgetPasswordBody extends StatelessWidget {
                       showDragHandle: false,
                       context: context,
                       builder: (context) {
-                        return Container(height:MediaQuery.of(context).size.height/1.7,
+                        return SizedBox(height:MediaQuery.of(context).size.height/1.7,
                           child:const  ResetPassword());
                       });
                 })

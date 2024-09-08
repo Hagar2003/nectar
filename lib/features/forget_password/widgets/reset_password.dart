@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import 'package:nectar/core/utils/styles.dart';
 import 'package:nectar/core/widgets/custom_button.dart';
 import 'package:nectar/features/forget_password/widgets/pin_code_text_field.dart';
@@ -43,16 +42,13 @@ class ResetPassword extends StatelessWidget {
                     text: 'Send Code',
                     onTap: () {
                       showBottomSheet(
-                
                           context: context,
                           builder: (context) {
-                            return Container(height:MediaQuery.of(context).size.height/1.4,
-                          
-                            child:   const ResetPasswordFinal());
-                            });
-                          
-                          
-                        
+                            return SizedBox(
+                                height:
+                                    MediaQuery.of(context).size.height / 1.4,
+                                child: const ResetPasswordFinal());
+                          });
                     })
               ],
             ),
