@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:nectar/core/utils/app_router.dart';
 import 'package:nectar/core/utils/styles.dart';
 import 'package:nectar/core/widgets/custom_button.dart';
 import 'package:nectar/core/widgets/custom_text_field.dart';
@@ -44,7 +45,7 @@ class ResetPasswordFinal extends StatelessWidget {
              CustomButton(
               text: 'Reset Password',
               onTap: () {
-                GoRouter.of(context).push('/ResetDone');
+                GoRouter.of(context).push(AppRouter.kReset);
               },
             )
           ],

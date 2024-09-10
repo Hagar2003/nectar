@@ -4,7 +4,10 @@ import 'package:flutter/material.dart';
 
 class Styles {
   static const Text26 = TextStyle(
-      fontSize: 26, fontWeight: FontWeight.w600, fontFamily: 'Gilroy');
+      fontSize: 26, fontWeight: FontWeight.w600,);
+
+      static const Text25 = TextStyle(
+      fontSize: 25, fontWeight: FontWeight.w500,);  
   static const Text18 = TextStyle(
       fontSize: 18, fontWeight: FontWeight.w500,
        fontFamily: 'Gilroy',
@@ -18,4 +21,9 @@ class Styles {
       fontSize: 21, fontWeight: FontWeight.w800,
        fontFamily: 'Gilroy',
        color:  Color.fromARGB(255, 105, 104, 104));
+       static const Text14 = TextStyle(
+      fontSize: 14, fontWeight: FontWeight.w500,
+       fontFamily: 'Gilroy',
+       color:  Color.fromARGB(255, 105, 104, 104));
+
 }

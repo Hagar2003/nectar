@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nectar/features/home_screen/presentation/views/widgets/home_screen_body.dart';
+import 'package:nectar/features/home/presentation/views/widgets/home_screen_body.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

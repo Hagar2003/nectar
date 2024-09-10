@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:nectar/core/utils/app_router.dart';
 import 'package:nectar/core/widgets/custom_button.dart';
 
 class OnBoardingBody extends StatelessWidget {
@@ -49,7 +50,7 @@ class OnBoardingBody extends StatelessWidget {
            CustomButton(
             text: 'Get Started',
             onTap: () {
-              GoRouter.of(context).push('/Login');
+              GoRouter.of(context).push(AppRouter.kLogin);
             },
           )
         ],
