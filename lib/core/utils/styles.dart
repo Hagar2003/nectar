@@ -6,6 +6,10 @@ class Styles {
   static const Text26 = TextStyle(
       fontSize: 26, fontWeight: FontWeight.w600,);
 
+static const Text23 = TextStyle(
+      fontSize: 21, fontWeight: FontWeight.w700,
+      color:Colors.black);
+
       static const Text25 = TextStyle(
       fontSize: 25, fontWeight: FontWeight.w500,);  
   static const Text18 = TextStyle(

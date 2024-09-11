@@ -16,7 +16,7 @@ class UpperSectionHome extends StatelessWidget {
           height: 110,
           width: double.infinity,
           decoration: BoxDecoration(
-            color: Colors.white,
+            color:  Colors.white,
             borderRadius: BorderRadius.circular(16),
           ),
           child: const Image(

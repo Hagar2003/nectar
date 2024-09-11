@@ -3,6 +3,13 @@ List x = [
   'assets/images/apple.png',
     'assets/images/banana.png',
   'assets/images/beef.png',
+  'assets/images/beverages.png',
+  'assets/images/fruitsAndVeg.png',
+  //'assets/images/fruitsAndVeg.png',
+  'assets/images/oil.png',
+  'assets/images/beef.png',
+  'assets/images/oil.png'
+
   ];
   class AppImages {
   static const String fruitsAndVeg = 'assets/images/fruitsAndVeg.png';

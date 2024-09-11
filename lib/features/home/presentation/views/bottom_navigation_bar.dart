@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nectar/constants.dart';
 import 'package:nectar/core/utils/styles.dart';
+import 'package:nectar/features/explore/presentattion/views/explore_view.dart';
 import 'package:nectar/features/home/presentation/views/home_screen.dart';
 
 class AppBottomNavigation extends StatefulWidget {
@@ -62,7 +63,7 @@ class _AppBottomNavigationState extends State<AppBottomNavigation> {
         controller: _pageController,
         children: [
           const HomeScreen(),
-          Container(),
+          ExploreView(),
           Container(),
           Container(),
           Container(),

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:nectar/features/home/presentation/views/widgets/custom_search_field.dart';
 import 'package:nectar/features/home/presentation/views/widgets/custom_text_section.dart';
 import 'package:nectar/features/home/presentation/views/widgets/exclusive_list_view.dart';
 import 'package:nectar/features/home/presentation/views/widgets/groceries_section.dart';
@@ -26,23 +25,23 @@ class HomeScreenBody extends StatelessWidget {
 
             UpperSectionHome(),
 
-        SizedBox(height: 15),
+        SizedBox(height: 10),
         CustomTextSection(text: 'Exclusive Offer',),
 
-        SizedBox(height: 15),
+        SizedBox(height: 10),
             ExclusiveListView(),
 
-            SizedBox(height: 15),
+            SizedBox(height: 10),
             CustomTextSection(text: 'Best Selling'),
 
-            SizedBox(height: 15),
+            SizedBox(height: 10),
             ExclusiveListView(),
 
-            SizedBox(height: 15),
+            SizedBox(height: 10),
               CustomTextSection(text: 'Groceries'),
 
-              SizedBox(height: 15),
-              
+              SizedBox(height: 10),
+
               GroceriesSection(),
             ]
           ),
