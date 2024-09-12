@@ -3,6 +3,7 @@ import 'package:nectar/constants.dart';
 import 'package:nectar/core/utils/styles.dart';
 import 'package:nectar/features/cart/presentation/views/cart_view.dart';
 import 'package:nectar/features/explore/presentattion/views/explore_view.dart';
+import 'package:nectar/features/favourite/presentation/views/favourite.dart';
 import 'package:nectar/features/home/presentation/views/home_screen.dart';
 
 class AppBottomNavigation extends StatefulWidget {
@@ -66,7 +67,7 @@ class _AppBottomNavigationState extends State<AppBottomNavigation> {
           const HomeScreen(),
           ExploreView(),
           CartView(),
-          Container(),
+          Favourite(),
           Container(),
         ],
       ),
