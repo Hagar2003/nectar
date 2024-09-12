@@ -24,7 +24,8 @@ class GroceriesSection extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             itemCount: 3,
             itemBuilder: (context,int index) {
-              return  ListViewItem(index: index,);
+              return  ListViewItem(index: 2,
+              name:'Beaf Bone');
             },
           ),
         ),

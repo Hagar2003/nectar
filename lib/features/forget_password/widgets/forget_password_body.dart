@@ -40,7 +40,7 @@ class ForgetPasswordBody extends StatelessWidget {
             ),
             CustomTextField(),
             const SizedBox(height: 50),
-            CustomButton(
+            CustomButton(x:0,
                 text: 'Continue',
                 onTap: () {
                   showBottomSheet(

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:nectar/features/explore/presentattion/views/widgets/list_explore_item.dart';
 import 'package:nectar/features/home/presentation/views/widgets/list_view_item.dart';
 
 class ExclusiveListView extends StatelessWidget {
@@ -15,6 +14,7 @@ class ExclusiveListView extends StatelessWidget {
         itemBuilder: (context, int index) {
           return ListViewItem(
             index: index,
+            name:'Red Apple'
           );
         },
       ),

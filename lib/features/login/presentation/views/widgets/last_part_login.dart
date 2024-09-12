@@ -32,7 +32,7 @@ class LastPartLogin extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 30),
-        const CustomButton(text: 'Log in'),
+         CustomButton(text: 'Log in',x:0),
         const SizedBox(height: 30),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,

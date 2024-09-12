@@ -23,7 +23,7 @@ class LastPartSignUp extends StatelessWidget {
           ],
         ),
           const SizedBox(height: 20),
-      const CustomButton(text: 'Sign Up'),
+       CustomButton(text: 'Sign Up',x:0),
       const SizedBox(height: 20),
       Row(
         mainAxisAlignment: MainAxisAlignment.center,

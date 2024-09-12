@@ -1,17 +1,18 @@
-
 List x = [
   'assets/images/apple.png',
-    'assets/images/banana.png',
+  'assets/images/banana.png',
   'assets/images/beef.png',
   'assets/images/beverages.png',
   'assets/images/fruitsAndVeg.png',
-  //'assets/images/fruitsAndVeg.png',
+  'assets/images/dairyAndEggs.png',
   'assets/images/oil.png',
   'assets/images/beef.png',
-  'assets/images/oil.png'
+  'assets/images/felfel.png',
+  'assets/images/sprite.png',
+  'assets/images/cocaCola.png'
+];
 
-  ];
-  class AppImages {
+class AppImages {
   static const String fruitsAndVeg = 'assets/images/fruitsAndVeg.png';
   static const String onBoarding = 'assets/images/onBoarding.jpg';
   static const String whiteCarrot = 'assets/images/whiteCarrot.png';
@@ -31,7 +32,7 @@ List x = [
   static const String meat = 'assets/images/meats.png';
   static const String chicken = 'assets/images/chicken.png';
   static const String beverages = 'assets/images/beverages.png';
-  static const String icon = 'assets/images/icon.png';
+  static const String icon = 'assets/images/icon (1).png';
   static const String creditCard = 'assets/images/credit_card.png';
   static const String orderAcc = 'assets/images/orderAcc.png';
   static const String orderAccBackground =

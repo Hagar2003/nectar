@@ -43,7 +43,7 @@ class ProductDetailsBody extends StatelessWidget {
             
                   FiveStars(),
                   SizedBox(height: 15,),
-                    const CustomButton(text: 'Add to Basket',),
+                     CustomButton(text: 'Add to Basket',x:0),
                   
                   ]
               ),

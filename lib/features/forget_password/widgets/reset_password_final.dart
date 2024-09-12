@@ -42,7 +42,7 @@ class ResetPasswordFinal extends StatelessWidget {
             const SizedBox(
               height: 30,
             ),
-             CustomButton(
+             CustomButton(x:0,
               text: 'Reset Password',
               onTap: () {
                 GoRouter.of(context).push(AppRouter.kReset);

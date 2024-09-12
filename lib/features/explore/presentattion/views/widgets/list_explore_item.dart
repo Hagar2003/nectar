@@ -14,14 +14,12 @@ class ListExploreItem extends StatelessWidget {
         GoRouter.of(context).push(AppRouter.kBeverages);
       },
       child: Container(
-          padding: EdgeInsets.symmetric(
-            horizontal: 8,
-          ),
+          padding: EdgeInsets.symmetric(horizontal: 4, vertical: 10.2),
           decoration: BoxDecoration(
             border: Border.all(
-              color: const Color.fromARGB(255, 223, 211, 100),
+              color: const Color.fromARGB(255, 241, 185, 132),
             ),
-            color: const Color.fromARGB(255, 242, 242, 230),
+            color: const Color.fromARGB(255, 247, 247, 222),
             borderRadius: BorderRadius.circular(22),
           ),
           child: Column(children: [
@@ -31,11 +29,15 @@ class ListExploreItem extends StatelessWidget {
               width: 120,
               fit: BoxFit.contain,
             ),
+            SizedBox(
+              height: 5,
+            ),
             Text(
               'Beverages',
               textAlign: TextAlign.center,
               style: Styles.Text23,
             ),
+            SizedBox(height: 20)
           ])),
     );
   }

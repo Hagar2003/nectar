@@ -6,9 +6,9 @@ import 'package:nectar/core/utils/app_router.dart';
 import 'package:nectar/core/utils/styles.dart';
 
 class ListViewItem extends StatelessWidget {
-  ListViewItem({super.key, required this.index});
+  ListViewItem({super.key, required this.index,required this.name});
   int index;
-
+  String name;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -23,7 +23,7 @@ class ListViewItem extends StatelessWidget {
                 color: const Color.fromARGB(255, 198, 196, 196), width: 1),
             borderRadius: BorderRadius.circular(16),
           ),
-          width: 175,
+          width: 170,
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 8),
             child: Column(
@@ -42,7 +42,7 @@ class ListViewItem extends StatelessWidget {
                   height: 10,
                 ),
                 Text(
-                  'Red Apple',
+                  name,
                   style: Styles.Text18.copyWith(color: Colors.black),
                 ),
                 const Text(

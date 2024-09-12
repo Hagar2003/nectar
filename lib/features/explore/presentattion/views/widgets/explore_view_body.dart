@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nectar/core/utils/styles.dart';
-import 'package:nectar/features/explore/presentattion/views/widgets/list_explore.dart';
+import 'package:nectar/features/explore/presentattion/views/widgets/grid_view_explore.dart';
+import 'package:nectar/features/explore/presentattion/views/widgets/list_explore_item.dart';
 import 'package:nectar/features/home/presentation/views/widgets/custom_search_field.dart';
 
 class ExploreViewBody extends StatelessWidget {
@@ -19,7 +20,7 @@ class ExploreViewBody extends StatelessWidget {
             Text('Find Products',style: Styles.Text23),
                   SizedBox(height: 20),
               CustomSearchField(),
-            
+          //  ListExploreItem(index: 0)])
              SizedBox(height:1200,child: ListExplore())])
           
           

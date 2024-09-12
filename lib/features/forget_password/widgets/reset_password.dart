@@ -38,7 +38,7 @@ class ResetPassword extends StatelessWidget {
                 const SizedBox(
                   height: 60,
                 ),
-                CustomButton(
+                CustomButton(x:0,
                     text: 'Send Code',
                     onTap: () {
                       showBottomSheet(

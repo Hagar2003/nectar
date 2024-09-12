@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nectar/constants.dart';
 import 'package:nectar/core/utils/styles.dart';
+import 'package:nectar/features/cart/presentation/views/cart_view.dart';
 import 'package:nectar/features/explore/presentattion/views/explore_view.dart';
 import 'package:nectar/features/home/presentation/views/home_screen.dart';
 
@@ -64,7 +65,7 @@ class _AppBottomNavigationState extends State<AppBottomNavigation> {
         children: [
           const HomeScreen(),
           ExploreView(),
-          Container(),
+          CartView(),
           Container(),
           Container(),
         ],

@@ -47,7 +47,7 @@ class OnBoardingBody extends StatelessWidget {
           const SizedBox(
             height: 30,
           ),
-           CustomButton(
+           CustomButton(x:0,
             text: 'Get Started',
             onTap: () {
               GoRouter.of(context).push(AppRouter.kLogin);

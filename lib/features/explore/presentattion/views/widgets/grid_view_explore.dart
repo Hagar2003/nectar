@@ -7,14 +7,12 @@ class ListExplore extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GridView.custom(
-      //  itemCount: 7,
-      //  itemBuilder: (context, int index) {
-      //    return ListExploreItem(index: index);
-      //  },
+
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
            crossAxisSpacing: 13,
-            mainAxisSpacing: 13),
+            mainAxisSpacing: 13,
+            childAspectRatio: 1.7 / 1.9,),
       shrinkWrap: true,
       childrenDelegate: SliverChildBuilderDelegate(childCount: 7,
         (context, int index) {
