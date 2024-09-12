@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:nectar/features/explore/presentattion/views/beverages_view.dart';
 import 'package:nectar/features/explore/presentattion/views/explore_view.dart';
+import 'package:nectar/features/explore/presentattion/views/filter_view.dart';
 import 'package:nectar/features/forget_password/forget_password.dart';
 import 'package:nectar/features/forget_password/widgets/congratulations.dart';
 import 'package:nectar/features/home/presentation/views/bottom_navigation_bar.dart';
@@ -17,6 +18,7 @@ abstract class AppRouter {
 static const kDetails = '/details';
 static const kExplore = '/Explore';
 static const kBeverages = '/Beverages';
+static const kFilter = '/Filters';
   static final router = GoRouter(routes: [
     GoRoute(
       path: ('/'),
@@ -57,7 +59,12 @@ static const kBeverages = '/Beverages';
   GoRoute(
       path: kBeverages,
       builder: (context, state) => const BeveragesView(),
+    ),
+      GoRoute(
+      path: kFilter,
+      builder: (context, state) => const FilterView(),
     )
+
 
   ]);
 }
