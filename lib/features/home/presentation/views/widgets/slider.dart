@@ -7,12 +7,12 @@ class SliderPart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CarouselSlider(
-      items: [Image.asset('assets/images/banner.jpg'),
-      Image.asset('assets/images/banner.jpg'),
-      Image.asset('assets/images/banner.jpg')
+      items: [Image.asset('assets/images/banner.jpg',fit: BoxFit.contain,),
+      //Image.asset('assets/images/banner.jpg'),
+      //Image.asset('assets/images/banner.jpg')
       ],
       options: CarouselOptions(
-        height: 180,
+        height: 160,
         viewportFraction: 1,
         initialPage: 0,
         enableInfiniteScroll: true,
