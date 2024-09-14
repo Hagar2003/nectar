@@ -63,6 +63,7 @@ class _AppBottomNavigationState extends State<AppBottomNavigation> {
       ),
       body: PageView(
         controller: _pageController,
+        
         children: [
           const HomeScreen(),
           ExploreView(),

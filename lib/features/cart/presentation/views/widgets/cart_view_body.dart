@@ -21,6 +21,7 @@ class CartViewBody extends StatelessWidget {
               CartItem(text: 'organic Bananas', pr: '\$1.99',index:1),
                 CartItem(text: 'Milk & Cheese  ', pr: '\$9.49',index:5),
                   CartItem(text: ' Coca & Sprite   ', pr: '\$4.55',index:3),
+                  SizedBox(height: 10),
             CustomButton(text: 'Go to Checkout',x:1)
             ],
         ),

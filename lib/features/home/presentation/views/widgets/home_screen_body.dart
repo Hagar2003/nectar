@@ -25,7 +25,6 @@ class HomeScreenBody extends StatelessWidget {
 
             UpperSectionHome(),
 
-        SizedBox(height: 10),
         CustomTextSection(text: 'Exclusive Offer',),
 
         SizedBox(height: 10),

@@ -22,7 +22,6 @@ class AppImages {
   static const String freshVegetables = 'assets/images/fresh_vegetables.jpg';
   static const String vegetablesStack = 'assets/images/vegetablesStack.png';
   static const String vegetables = 'assets/images/vegetables.png';
-  static const String freshVegeTitle = 'assets/images/freshVegeTitle.png';
   static const String apple = 'assets/images/apple.png';
   static const String pulses = 'assets/images/pulses.png';
   static const String ric = 'assets/images/ric.png';
@@ -30,7 +29,6 @@ class AppImages {
   static const String backery = 'assets/images/backery.png';
   static const String oil = 'assets/images/oil.png';
   static const String meat = 'assets/images/meats.png';
-  static const String chicken = 'assets/images/chicken.png';
   static const String beverages = 'assets/images/beverages.png';
   static const String icon = 'assets/images/icon (1).png';
   static const String creditCard = 'assets/images/credit_card.png';

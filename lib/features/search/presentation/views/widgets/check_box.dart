@@ -24,7 +24,7 @@ class _CheckBoxFilterState extends State<CheckBoxFilter> {
                 activeColor: kPrimaryColor,
                 //hoverColor: Colors.white,
                 visualDensity: VisualDensity.comfortable,
-                tristate: true, // Example with tristate
+                //tristate: true, // Example with tristate
                 value: value,
                 onChanged: (newValue) {
                   setState(() {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nectar/features/explore/presentattion/views/widgets/fliter_body.dart';
+import 'package:nectar/features/search/presentation/views/widgets/fliter_body.dart';
 
 class FilterView extends StatelessWidget {
   const FilterView({super.key});
