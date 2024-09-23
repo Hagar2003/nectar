@@ -58,7 +58,7 @@ class CartItem extends StatelessWidget {
           Row(
             children: [
               CounterCart(),
-              SizedBox(width: 78),
+              SizedBox(width: 66),
               Text(
                 pr,
                 style: Styles.Text18.copyWith(

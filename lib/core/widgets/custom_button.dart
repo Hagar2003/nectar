@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nectar/constants.dart';
 
+// ignore: must_be_immutable
 class CustomButton extends StatelessWidget {
    CustomButton({super.key, required this.text, this.onTap, required this.x});
   final String text;
