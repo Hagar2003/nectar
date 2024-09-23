@@ -4,7 +4,6 @@ import 'package:nectar/constants.dart';
 import 'package:nectar/core/utils/app_images.dart';
 import 'package:nectar/core/utils/styles.dart';
 import 'package:nectar/features/cart/presentation/views/widgets/counter_cart.dart';
-import 'package:nectar/features/home/presentation/views/widgets/custom_add_decrese_button.dart';
 
 class CartItem extends StatelessWidget {
   CartItem({super.key, required this.text, required this.pr,required this.index});
@@ -59,7 +58,7 @@ class CartItem extends StatelessWidget {
           Row(
             children: [
               CounterCart(),
-              SizedBox(width: 80),
+              SizedBox(width: 78),
               Text(
                 pr,
                 style: Styles.Text18.copyWith(
