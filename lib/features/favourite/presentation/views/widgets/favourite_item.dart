@@ -42,7 +42,7 @@ class FavouriteItem extends StatelessWidget {
           ]),
           Row(
             children: [
-              SizedBox(width: 120),
+              SizedBox(width: 110),
               Text(
                 '\$9.00',
                 style: Styles.Text16.copyWith(
